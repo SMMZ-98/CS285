@@ -1,0 +1,8 @@
+{"time":"2026-02-10T19:27:43.560626-08:00","level":"INFO","msg":"main: starting server","port-filename":"/var/folders/t4/zjnqk5kn3vlb423t_xykvz5c0000gp/T/tmpykm873fp/port-90651.txt","pid":90651,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2026-02-10T19:27:43.561351-08:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":90651}
+{"time":"2026-02-10T19:27:43.561346-08:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/var/folders/t4/zjnqk5kn3vlb423t_xykvz5c0000gp/T/wandb-90651-90657-128797718/socket","Net":"unix"}}
+{"time":"2026-02-10T19:27:43.755086-08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1"}
+{"time":"2026-02-10T19:27:43.785414-08:00","level":"INFO","msg":"handleInformInit: received","streamId":"ujt5i3x6","id":"1"}
+{"time":"2026-02-10T19:27:43.971768-08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"ujt5i3x6","id":"1"}
+{"time":"2026-02-10T19:31:39.681428-08:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"ujt5i3x6","id":"1"}
+{"time":"2026-02-10T19:31:39.687136-08:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"ujt5i3x6","id":"1"}

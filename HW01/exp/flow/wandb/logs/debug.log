@@ -1,0 +1,26 @@
+2026-02-10 21:43:33,602 INFO    MainThread:94455 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2026-02-10 21:43:33,602 INFO    MainThread:94455 [wandb_setup.py:_flush():80] Configure stats pid to 94455
+2026-02-10 21:43:33,602 INFO    MainThread:94455 [wandb_setup.py:_flush():80] Loading settings from /Users/sm.masoumizadeh/.config/wandb/settings
+2026-02-10 21:43:33,602 INFO    MainThread:94455 [wandb_setup.py:_flush():80] Loading settings from /Users/sm.masoumizadeh/Desktop/Courses/CS285/HW01/wandb/settings
+2026-02-10 21:43:33,603 INFO    MainThread:94455 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2026-02-10 21:43:33,603 INFO    MainThread:94455 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /Users/sm.masoumizadeh/Desktop/Courses/CS285/HW01/wandb/run-20260210_214333-j3rv9wqf/logs/debug.log
+2026-02-10 21:43:33,603 INFO    MainThread:94455 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /Users/sm.masoumizadeh/Desktop/Courses/CS285/HW01/wandb/run-20260210_214333-j3rv9wqf/logs/debug-internal.log
+2026-02-10 21:43:33,603 INFO    MainThread:94455 [wandb_init.py:init():841] calling init triggers
+2026-02-10 21:43:33,603 INFO    MainThread:94455 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'data_dir': 'data', 'policy_type': 'flow', 'flow_num_steps': 10, 'chunk_size': 4, 'batch_size': 256, 'lr': 0.002, 'weight_decay': 0.0, 'hidden_dims': (256, 256, 256), 'num_epochs': 800, 'eval_interval': 10000, 'num_video_episodes': 5, 'video_size': (256, 256), 'log_interval': 100, 'seed': 42, 'wandb_project': 'hw1-imitation', 'exp_name': None, '_wandb': {}}
+2026-02-10 21:43:33,603 INFO    MainThread:94455 [wandb_init.py:init():889] starting backend
+2026-02-10 21:43:33,878 INFO    MainThread:94455 [wandb_init.py:init():892] sending inform_init request
+2026-02-10 21:43:33,914 INFO    MainThread:94455 [wandb_init.py:init():900] backend started and connected
+2026-02-10 21:43:33,917 INFO    MainThread:94455 [wandb_init.py:init():970] updated telemetry
+2026-02-10 21:43:33,918 INFO    MainThread:94455 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2026-02-10 21:43:34,668 INFO    MainThread:94455 [wandb_init.py:init():1041] starting run threads in backend
+2026-02-10 21:43:34,724 INFO    MainThread:94455 [wandb_run.py:_console_start():2521] atexit reg
+2026-02-10 21:43:34,724 INFO    MainThread:94455 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2026-02-10 21:43:34,725 INFO    MainThread:94455 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2026-02-10 21:43:34,725 INFO    MainThread:94455 [wandb_run.py:_redirect():2461] Redirects installed.
+2026-02-10 21:43:34,726 INFO    MainThread:94455 [wandb_init.py:init():1081] run started, returning control to user process
+2026-02-10 21:48:38,758 INFO    MainThread:94455 [wandb_run.py:_finish():2287] finishing run sm-masoumizadeh-uc-berkeley-electrical-engineering-compu/hw1-imitation/j3rv9wqf
+2026-02-10 21:48:38,758 INFO    MainThread:94455 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2026-02-10 21:48:38,758 INFO    MainThread:94455 [wandb_run.py:_restore():2468] restore
+2026-02-10 21:48:38,759 INFO    MainThread:94455 [wandb_run.py:_restore():2474] restore done
+2026-02-10 21:48:41,422 INFO    MainThread:94455 [wandb_run.py:_footer_sync_info():3862] logging synced files
